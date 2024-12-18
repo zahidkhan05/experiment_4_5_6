@@ -1,6 +1,20 @@
 #include<stdio.h>
 int main()
 {
-int a=10, b=20, c;
-printf("a=%d b=%d",c);
+   int a=10, b=20, c;
+   printf("a=%d b=%d",c);
+   c=a+b;
+   printf("Result=%d",c);
 }
+//same program using scanf
+
+#include<stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("Enter the value of A and B\n");
+   scanf("%d%d",&a,&b);
+   c=a+b;
+   printf("RESULT=%d",c);
+}
+
